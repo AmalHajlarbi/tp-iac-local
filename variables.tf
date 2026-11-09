@@ -14,7 +14,7 @@ variable "db_user" {
 variable "db_password" {
   description = "Mot de passe PostgreSQL (simulé, ne pas utiliser en prod)."
   type        = string
-  default     = "strongpassword123"
+  default     = "Strong#Pass123?!"
 }
 
 variable "app_port_external" {
